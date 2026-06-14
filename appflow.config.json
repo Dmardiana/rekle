@@ -1,6 +1,7 @@
 {
   "apps": [
     {
+      "appId": "da5974f4",
       "root": "frontend"
     }
   ]
