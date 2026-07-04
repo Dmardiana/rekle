@@ -24,7 +24,7 @@
 
 ## Tentang Proyek
 
-**REKLE** adalah platform web full-stack yang membantu pengguna mengidentifikasi jenis sampah melalui foto menggunakan model AI (MobileNetV2), kemudian mengarahkan mereka ke aksi pengelolaan sampah yang tepat — mulai dari kompos, daur ulang, reuse, eco brick, hingga penanganan limbah B3/medis. Platform ini dilengkapi sistem gamifikasi berupa poin, badge, challenge, dan leaderboard untuk mendorong partisipasi aktif.
+**REKLE** adalah platform yang membantu pengguna mengidentifikasi jenis sampah melalui foto menggunakan model AI (MobileNetV2), kemudian mengarahkan mereka ke aksi pengelolaan sampah yang tepat — mulai dari kompos, daur ulang, reuse, eco brick, hingga penanganan limbah B3/medis. Platform ini dilengkapi sistem gamifikasi berupa poin, badge, challenge, dan leaderboard untuk mendorong partisipasi aktif.
 
 ---
 
