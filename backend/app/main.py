@@ -9,11 +9,17 @@ from fastapi.staticfiles import StaticFiles
 app = FastAPI(title="REKLE Backend")
 
 # ─────────────────────────────────────────────
-# CORS
+# CORS (Pilihan B)
 # ─────────────────────────────────────────────
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.allowed_origins_list, 
+    allow_origins=[
+        "http://localhost",
+        "capacitor://localhost",  # <--- Ini origin resmi dari APK Android kamu
+        "http://192.168.100.26",
+        "http://192.168.100.26:5173",
+        "http://192.168.100.26:8000"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
