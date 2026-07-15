@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// UBAH BARIS INI: Ganti 127.0.0.1 menjadi IP Laptop kamu
-const BASE_URL = "http://192.168.100.26:8000/api/v1";
+// UBAH BARIS INI: Sesuaikan dengan IP laptop terbaru kamu
+const BASE_URL = "http://192.168.100.42:8000/api/v1";
 
 const api = axios.create({
   baseURL: BASE_URL,

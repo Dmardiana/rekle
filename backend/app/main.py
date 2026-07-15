@@ -11,15 +11,10 @@ app = FastAPI(title="REKLE Backend")
 # ─────────────────────────────────────────────
 # CORS (Pilihan B)
 # ─────────────────────────────────────────────
+# UBAH MENJADI SEPERTI INI
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost",
-        "capacitor://localhost",  # <--- Ini origin resmi dari APK Android kamu
-        "http://192.168.100.26",
-        "http://192.168.100.26:5173",
-        "http://192.168.100.26:8000"
-    ],
+    allow_origins=["*"], # <-- GANTI JADI BINTANG UNTUK MEMBUKA SEMUA AKSES
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
