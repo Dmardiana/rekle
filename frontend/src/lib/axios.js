@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // UBAH BARIS INI: Sesuaikan dengan IP laptop terbaru kamu
-const BASE_URL = "http://10.104.234.220:8000/api/v1";
+const BASE_URL = "http://10.104.234.58:8000/api/v1";
 
 const api = axios.create({
   baseURL: BASE_URL,
